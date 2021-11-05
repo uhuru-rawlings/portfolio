@@ -155,4 +155,7 @@ input[type=submit]{
     #home{
         display: flex;
     }
+    #menu{
+        font-size: 22px;
+    }
 }
