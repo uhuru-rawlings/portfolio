@@ -11,4 +11,5 @@
   Cascading Style Sheet.
   used to style the page
   ### JAVASCRIPT
+  This is used to achieve the reactivity of the page.
    
