@@ -13,4 +13,6 @@
   ### JAVASCRIPT
   This is used to achieve the reactivity of the page.
   In this page, i have used javascript to validate the contact form before submission.
+  ### BOOTSTRAP
+  This is a css framework.
    
