@@ -5,6 +5,7 @@
  ### Languages used
  HTML,CSS,JAVASCRIPT,BOOTSTRAP.
  #### HTML
+  Hyper Text Makeup Language.
   used to stracture the web page.
   #### CSS
   used to style the page
