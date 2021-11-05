@@ -15,4 +15,5 @@
   In this page, i have used javascript to validate the contact form before submission.
   ### BOOTSTRAP
   This is a css framework.
+  It uses classes to style our web pages.
    
