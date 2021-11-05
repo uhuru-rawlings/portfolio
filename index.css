@@ -1,0 +1,150 @@
+span{
+    color: crimson;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: gainsboro;
+}
+nav{
+    text-align: right;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid rgb(187, 186, 186);
+}
+.container nav ul li{
+    list-style: none;
+    display: inline;
+    padding-right: 30px;
+
+}
+.container nav ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: normal;
+    color: crimson;
+}
+#img{
+    display: none;
+}
+#home{
+    padding: 50px 130px;
+    font-family: 'Black Ops One', cursive;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+}
+#home img{
+    border-radius: 50%;
+}
+#home h1{
+    padding-left: 40px;
+}
+#about{
+    margin: 50px 100px 50px 100px;
+    text-align: center;
+    padding: 100px;
+}
+#about p{
+    font-size: 22px;
+}
+#projects .col{
+    width: 350px;
+}
+#projects{
+    text-align: center;
+    margin: 50px 100px 50px 100px;
+}
+#contact{
+    margin: 50px 100px 50px 100px;
+    /* text-align: center; */
+}
+.forms{
+    width: 350px;
+    position: relative;
+    border: 1px solid rgb(117, 207, 235);
+    padding: 20px;
+}
+textarea{
+    height: 150px;
+    resize: none;
+}
+input[type=submit]{
+    margin-top: 20px;
+}
+#footer{
+    margin: 50px;
+    text-align: center;
+    border-top: 2px solid gainsboro;
+    padding: 50px;
+}
+#footer a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: normal;
+    padding-left: 20px;
+}
+#footer a:hover{
+    color: crimson;
+}
+@media only screen and (max-width:480px){
+    #menu{
+        display: none;
+    }
+    #menu ul li{
+        display:block;
+        padding-right: 0;
+        margin: 0;
+    }
+    #menu ul li a{
+        font-size: 16px;
+    }
+    #img{
+        display: block;
+    }
+    #home{
+        padding: 0;
+        margin: 20 0px 0px 20px;
+        font-size: 25px;
+        align-content: unset;
+        justify-content: unset;
+        display: block;
+        text-align: center;
+    }
+    #home img{
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+    }
+    #about{
+        margin: 0px;
+        padding: 20px;
+        font-size: 19px;
+        text-align: center;
+        
+    }
+    #projects{
+        margin: 0px;
+        padding: 20px;
+    }
+    #contact{
+        margin: 0px;
+        padding: 20px;
+    }
+    #contact form{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:720px){
+    #menu{
+        display: block;
+        margin: 0px;
+    }
+    #home{
+        margin: 20px;
+        display: block;
+        padding: 0px;
+        text-align: center;
+    }
+}
