@@ -6,3 +6,5 @@
  HTML,CSS,JAVASCRIPT,BOOTSTRAP.
  #### HTML
   used to stracture the web page.
+  #### CSS
+  used to style the page
