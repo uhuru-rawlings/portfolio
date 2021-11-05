@@ -148,3 +148,8 @@ input[type=submit]{
         text-align: center;
     }
 }
+@media only screen and (max-width:1020){
+    section{
+        margin: 20px 100px 20px 100px;
+    }
+}
